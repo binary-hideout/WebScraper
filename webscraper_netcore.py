@@ -28,5 +28,5 @@ def BestBuy():
 
     df = pd.DataFrame({'Laptop Name':laptops}) 
     df.to_csv('products.csv', index=False, encoding='utf-8')
-    
-    BestBuy()
+
+BestBuy()
