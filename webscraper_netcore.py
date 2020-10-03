@@ -25,7 +25,8 @@ def BestBuy():
         print(len(laptops))
         sleep(4)
         pag += 1
-    print(len(laptops))
+
+    #print(len(laptops))
 
     cels = BestBuyCels()
     teles = BestBuyTvs()
@@ -85,8 +86,9 @@ def BestBuyTvs():
 
 def Amazon():
 
-    driver.get("https://www.amazon.com.mx/gp/bestsellers/electronics/9687458011?ref_=Oct_s9_apbd_obs_hd_bw_bAZbaMl_S&pf_rd_r=HZ45SGH8T7GKZ74AS33S&pf_rd_p=4d9d93c0-fea5-5ed3-9cdc-da3baf21c408&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=9687458011")
-
+    link1 = 'https://www.amazon.com.mx/gp/bestsellers/electronics/9687458011?ref_=Oct_s9_apbd_obs_hd_bw_bAZbaMl_S&pf_rd_r=HZ45SGH8T7GKZ74AS33S&pf_rd_p=4d9d93c0-fea5-5ed3-9cdc-da3baf21c408&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=9687458011'
+    link2='https://www.amazon.com.mx/gp/bestsellers/electronics/9687458011/ref=zg_bs_pg_2/132-1166954-1513655?ie=UTF8&pg=2'
+    driver.get(link1)
     content = driver.page_source
     soup = BeautifulSoup(content, features="html.parser")
     celulares = []
@@ -96,13 +98,50 @@ def Amazon():
 
         #print(a.text)
         celulares.append(a.text)
-    
-    print(len(celulares))
 
-    if( (len(celulares)) > 0):
-        df = pd.DataFrame({'Laptop Name':celulares})
+    driver.get(link2)
+    content = driver.page_source
+    soup = BeautifulSoup(content, features="html.parser")
+    sleep(2)
+
+    for a in soup.findAll('div', attrs={'class':'p13n-sc-truncated'}):
+
+        #print(a.text)
+        celulares.append(a.text)
+
+    laps = AmazonLaptops()    
+    #tvs = Amazontvs()
+    print(len(celulares), 'cels')
+    print(len(laps), 'laps')
+    #print(len(tvs), 'tvs')
+
+    if( ((len(celulares)) > 0) and (len(laps) > 0)):
+        df = pd.DataFrame({'Cellphone Name':celulares})
         df.to_csv('celsAmazon.csv', index=False, encoding='utf-8')
+        df2 = pd.DataFrame({'Laptop Name':celulares})
+        df2.to_csv('celsAmazon.csv', index=False, encoding='utf-8')
+
+
+def AmazonLaptops():
+    link1='https://www.amazon.com.mx/gp/bestsellers/electronics/10189669011?ref_=Oct_s9_apbd_obs_hd_bw_bB7aoOB_S&pf_rd_r=5794MD68EN89CRQZWMDQ&pf_rd_p=58d7811c-7134-5551-b955-42726ceffed4&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=10189669011'
+    link2='https://www.amazon.com.mx/gp/bestsellers/electronics/10189669011/ref=zg_bs_pg_2?ie=UTF8&pg=2'
+    driver.get(link1)
+    content = driver.page_source
+    soup = BeautifulSoup(content, features="html.parser")
+    laptops = []
+    sleep(2)
+
     
+    for a in soup.findAll('div', attrs={'class':'p13n-sc-truncate-desktop-type2 p13n-sc-truncated'}):
+        laptops.append(a.text)
+    
+    driver.get(link2)
+    sleep(2)
+
+    for a in soup.findAll('div', attrs={'class':'p13n-sc-truncate-desktop-type2 p13n-sc-truncated'}):
+        laptops.append(a.text)
+
+    return laptops
     
 #Call the sites you want to get the info from
 #BestBuy()
