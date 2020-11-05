@@ -1,4 +1,20 @@
 import pandas as pd
+import unicodedata
+
+vowelDict = {'á' : 'a', 'ó' : 'o', 'ñ':'n', 'é':'e'}
+
+def strip_accents(text):
+
+    try:
+        text = unicode(text, 'utf-8')
+    except NameError: 
+        pass
+
+    text = unicodedata.normalize('NFD', text)\
+           .encode('ascii', 'ignore')\
+           .decode("utf-8")
+
+    return str(text)
 
 laptopsdf = pd.read_csv("products.csv")
 tvsdf = pd.read_csv("tvs.csv")
@@ -7,6 +23,8 @@ celsdf = pd.read_csv("celsAmazon.csv")
 print(laptopsdf.head())
 print(tvsdf.head())
 print(celsdf.head())
+
+
 
 #Laptop Cleaning
 lapsbb = laptopsdf["Laptop Name"]
@@ -18,11 +36,21 @@ for lap in lapsbb:
     lapbrands.append(lap[0])
     lapnames.append(lap[1] + lap[2])
 
+#Cleaning values
+lapnames2 = ["" for i in range(len(lapnames))]
+for i in range(len(lapnames)):
+    lapnames2[i] += (strip_accents(lapnames[i]))
+    
+
+tagLaps =  [ 1 for i in range(len(lapnames))]
 laptopsdf["Laptop Brand"] = lapbrands
-laptopsdf["Laptop Model"] = lapnames
+laptopsdf["Laptop Model"] = lapnames2
+laptopsdf["Tag"] = tagLaps
 del laptopsdf['Laptop Name']
 
 print(laptopsdf.head())
+
+
 
 #TV cleaning
 tvsbb = tvsdf["TV Name"]
@@ -39,8 +67,16 @@ tvnames += tvnames2
 print(len(tvnames))
 print(len(tvbrands))
 
+#Cleaning values
+tvnames2 = ["" for i in range(len(tvnames))]
+for i in range(len(tvnames)):
+    tvnames2[i] += (strip_accents(tvnames[i]))
+
+tagtvs =  [ 2 for i in range(len(tvbrands))]
+
 tvsdf["TV Brand"] = tvbrands
-tvsdf["TV Model"] = tvnames[:-1]
+tvsdf["TV Model"] = tvnames2[:-1]
+tvsdf["Tag"] = tagtvs
 del tvsdf['TV Name']
 
 print(tvsdf.head())
@@ -63,14 +99,17 @@ for i in range(len(Cellnames)):
     for word in Cellnames[i]:
         Cellnames2[i] += word + " "
 
-        
 
+#Cleaning values
+phonenames2 = ["" for i in range(len(Cellnames2))]
+for i in range(len(Cellnames2)):
+    phonenames2[i] += (strip_accents(Cellnames2[i]))
+            
 
-
-print(len(Cellnames))
-print(len(Cellbrands))
+tagCells =  [ 3 for i in range(len(Cellbrands))]
 celsdf["Cellphone Brand"] = Cellbrands
-celsdf["Cellphone Model"] = Cellnames2
+celsdf["Cellphone Model"] = phonenames2
+celsdf["Tag"] = tagCells
 del celsdf['Cellphone Name']
 
 print(celsdf.head())

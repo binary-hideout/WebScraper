@@ -7,7 +7,7 @@ import time
 
 driver = webdriver.Chrome("C:\Program Files\chromedriver")
 
-#----------------------BestBuy------------
+#----------------------BestBuy----------------
 def BestBuy():
     laptops = []
 
@@ -27,13 +27,14 @@ def BestBuy():
         pag += 1
 
     #print(len(laptops))
-
+    for lap in laptops:
+        lap = lap.split("-")
     cels = BestBuyCels()
     teles = BestBuyTvs()
-    df = pd.DataFrame({'Laptop Name':laptops})
+    df = pd.DataFrame({'Laptop Brand':[x for x in laptops[0]]}, {'Laptop Model':[x for x in laptops[0]]})
     df2 = pd.DataFrame({'Cellphone Name':cels}) 
     df3 = pd.DataFrame({'TV Name':teles})
-    df.to_csv('products.csv', index=False, encoding='utf-8')
+    df.to_csv('laptops.csv', index=False, encoding='utf-8')
     df2.to_csv('cels.csv', index=False, encoding='utf-8')
     df3.to_csv('tvs.csv', index=False, encoding='utf-8')
 
@@ -118,8 +119,8 @@ def Amazon():
     if( ((len(celulares)) > 0) and (len(laps) > 0)):
         df = pd.DataFrame({'Cellphone Name':celulares})
         df.to_csv('celsAmazon.csv', index=False, encoding='utf-8')
-        df2 = pd.DataFrame({'Laptop Name':celulares})
-        df2.to_csv('celsAmazon.csv', index=False, encoding='utf-8')
+        df2 = pd.DataFrame({'Laptop Name':laps})
+        df2.to_csv('lapsAmazon.csv', index=False, encoding='utf-8')
 
 
 def AmazonLaptops():
