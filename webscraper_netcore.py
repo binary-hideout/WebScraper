@@ -165,7 +165,7 @@ def AmazonImgs():
     phoneimgalt = Phones[1]
     sleep(2)
 
-    Phones2 = GetAmazonImgs(link4)
+    Phones2 = GetAmazonImgs(link2)
     for x in range(len(Phones2[0])):
         phoneimgsrc.append(Phones2[0][x])
         phoneimgalt.append(Phones2[1][x])

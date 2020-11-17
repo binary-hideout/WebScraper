@@ -17,7 +17,7 @@ def strip_accents(text):
     return str(text)
 
 laptopsdf = pd.read_csv("lapsAmazonImgs.csv")
-tvsdf = pd.read_csv("tvs.csv")
+tvsdf = pd.read_csv("tvsAmazonImgs.csv")
 celsdf = pd.read_csv("celsAmazonImgs.csv")
 
 print(laptopsdf.head())
@@ -71,10 +71,11 @@ else:
 
 
 #TV cleaning----------------------------------------------
-tvsbb = tvsdf["TV Name"]
+tvsbb = tvsdf["Alt Text"]
 tvbrands = []
-tvnames = []
-tvnames2= []
+#tvnames = []
+#tvnames2= []
+"""
 for tv in tvsbb:
     tv = tv.split("-")
     #print(tv)
@@ -84,20 +85,44 @@ tvnames2.append(tv[3])
 tvnames += tvnames2
 print(len(tvnames))
 print(len(tvbrands))
+"""
+tvnames = ["" for i in range(len(tvsbb))] 
+tvlens =[] #Stores the number of strings in each field
+for k in range(len(tvsbb)):
+    tvsbb[k] = str(tvsbb[k])
+    tv = tvsbb[k].split(" ")
+    #print(lap)
+    tvbrands.append(tv[0])
+    try: #make loop for this, dont keep doing that horror
+        #print(len(lap))
+        if(len(tv) > 1):
+            for i in range(len(tv)):
+                tvnames[k] += tv[i] + " "
+                tvlens.append(len(tv))
+        
+    except:        
+        pass
 
 #Cleaning values
 tvnames2 = ["" for i in range(len(tvnames))]
 for i in range(len(tvnames)):
     tvnames2[i] += (strip_accents(tvnames[i]))
 
-tagtvs =  [ 2 for i in range(len(tvbrands))]
+if(len(tvnames2) == len(tvbrands)):
+    tagtvs =  [ 2 for i in range(len(tvbrands))]
+    tvsdf["TV Brand"] = tvbrands
+    tvsdf["TV Model"] = tvnames2
+    tvsdf["Tag"] = tagtvs
+    del tvsdf['Alt Text']
+    print(tvsdf.head())
+else:
+    print('ERROR')
+    print(tvnames2[0])
+    print(tvbrands[0])
+    print(len(tvnames2))
+    print(len(tvbrands))
 
-tvsdf["TV Brand"] = tvbrands
-tvsdf["TV Model"] = tvnames2[:-1]
-tvsdf["Tag"] = tagtvs
-del tvsdf['TV Name']
 
-print(tvsdf.head())
 """
 #Cellphone cleaning---------------------------------------
 celsAmazon = celsdf["Alt Text"]
