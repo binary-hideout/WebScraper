@@ -18,7 +18,7 @@ def strip_accents(text):
 
 laptopsdf = pd.read_csv("products.csv")
 tvsdf = pd.read_csv("tvs.csv")
-celsdf = pd.read_csv("celsAmazon.csv")
+celsdf = pd.read_csv("celsAmazonImgs.csv")
 
 print(laptopsdf.head())
 print(tvsdf.head())
@@ -82,7 +82,7 @@ del tvsdf['TV Name']
 print(tvsdf.head())
 
 #Cellphone cleaning
-celsAmazon = celsdf["Cellphone Name"]
+celsAmazon = celsdf["Alt Text"]
 Cellbrands = []
 Cellnames = [] #List of lists containing the names + details
  #List of names
@@ -110,7 +110,7 @@ tagCells =  [ 3 for i in range(len(Cellbrands))]
 celsdf["Cellphone Brand"] = Cellbrands
 celsdf["Cellphone Model"] = phonenames2
 celsdf["Tag"] = tagCells
-del celsdf['Cellphone Name']
+del celsdf['Alt Text']
 
 print(celsdf.head())
 
