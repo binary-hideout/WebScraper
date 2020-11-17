@@ -1,73 +1,110 @@
-,Laptop Brand,Laptop Model,Tag
-0,Microsoft ," Surface Go 2 con pantalla tactil de 10.5""  Intel Pentium Gold ",1
-1,Microsoft ," Surface Go 2 con pantalla tactil de 10.5""  Intel Pentium Gold ",1
-2,Dell," Laptop G5 1660TI SSD de 15.6"" NVIDIA GeForce GTX 1660 Ti",1
-3,Asus," Laptop ROG STRIX G15 de 15.6"" NVIDIA GeForce GTX 1650 Ti",1
-4,Apple ," MacBook Air (ultimo modelo) de 13.""  Core i3 ",1
-5,Dell ," Laptop G3 de 15.6""  NVIDIA GeForce GTX 1650 Ti ",1
-6,Microsoft ," Surface Book 3 tactil de 13.5""  Core i5 ",1
-7,Acer , Laptop A51452,1
-8,MSI," Laptop RAIDER 10SFS220MX de 15.6""",1
-9,Acer ," Laptop PREDATOR HELIOS 300 de 15.6"" NVIDIA GeForce RTX 2060 ",1
-10,HP ," Laptop ENVY X360 13AR0003LA de 13.3"" ",1
-11,HP ," Laptop PAVILION 15CW1005LA de 15.6"" ",1
-12,MSI ,"Laptop 15.6""Comet lake i7",1
-13,Dell ," Laptop INSPIRON G3 15 1650 de 15.6"" NVIDIA GeForce GTX 1650",1
-14,Apple ," MacBook Pro de 16"" Core i9",1
-15,Apple ," MacBook Pro de 13""  Core i5 ",1
-16,Lenovo ," Laptop Legion Y740 I7 de 17.3""  NVIDIA GeForce RTX 2080",1
-17,Apple ," MacBook Pro (de 16"" Core i7",1
-18,Apple ," MacBook Pro de 13""  Core i5 ",1
-19,Lenovo," Laptop LEGION Y540 I5 de 15.6"" NVIDIA GeForce GTX 1650",1
-20,Lenovo ," Laptop Yoga Slim 7 de 14""  AMD Ryzen 5 ",1
-21,Acer ," Laptop PREDATOR TRITON 300 de 15.6"" NVIDIA GeForce GTX 1660 Ti ",1
-22,Acer , Laptop SF31442,1
-23,Dell," Laptop gaming NB G515SE de 15.6"" AMD Radeon RX 5600M",1
-24,Microsoft ," Surface Go 2 con pantalla tactil de 10.5""  Intel Pentium Gold ",1
-25,Microsoft ," Surface Go 2 con pantalla tactil de 10.5""  Intel Pentium Gold ",1
-26,Dell," Laptop G5 1660TI SSD de 15.6"" NVIDIA GeForce GTX 1660 Ti",1
-27,Asus," Laptop ROG STRIX G15 de 15.6"" NVIDIA GeForce GTX 1650 Ti",1
-28,Apple ," MacBook Air (ultimo modelo) de 13.""  Core i3 ",1
-29,Dell ," Laptop G3 de 15.6""  NVIDIA GeForce GTX 1650 Ti ",1
-30,Microsoft ," Surface Book 3 tactil de 13.5""  Core i5 ",1
-31,Acer , Laptop A51452,1
-32,MSI," Laptop RAIDER 10SFS220MX de 15.6""",1
-33,Acer ," Laptop PREDATOR HELIOS 300 de 15.6"" NVIDIA GeForce RTX 2060 ",1
-34,HP ," Laptop ENVY X360 13AR0003LA de 13.3"" ",1
-35,HP ," Laptop PAVILION 15CW1005LA de 15.6"" ",1
-36,MSI ,"Laptop 15.6""Comet lake i7",1
-37,Dell ," Laptop INSPIRON G3 15 1650 de 15.6"" NVIDIA GeForce GTX 1650",1
-38,Apple ," MacBook Pro de 16"" Core i9",1
-39,Apple ," MacBook Pro de 13""  Core i5 ",1
-40,Lenovo ," Laptop Legion Y740 I7 de 17.3""  NVIDIA GeForce RTX 2080",1
-41,Apple ," MacBook Pro (de 16"" Core i7",1
-42,Apple ," MacBook Pro de 13""  Core i5 ",1
-43,Lenovo," Laptop LEGION Y540 I5 de 15.6"" NVIDIA GeForce GTX 1650",1
-44,Lenovo ," Laptop Yoga Slim 7 de 14""  AMD Ryzen 5 ",1
-45,Acer ," Laptop PREDATOR TRITON 300 de 15.6"" NVIDIA GeForce GTX 1660 Ti ",1
-46,Acer , Laptop SF31442,1
-47,Dell," Laptop gaming NB G515SE de 15.6"" AMD Radeon RX 5600M",1
-48,Microsoft ," Surface Go 2 con pantalla tactil de 10.5""  Intel Pentium Gold ",1
-49,Microsoft ," Surface Go 2 con pantalla tactil de 10.5""  Intel Pentium Gold ",1
-50,Dell," Laptop G5 1660TI SSD de 15.6"" NVIDIA GeForce GTX 1660 Ti",1
-51,Asus," Laptop ROG STRIX G15 de 15.6"" NVIDIA GeForce GTX 1650 Ti",1
-52,Apple ," MacBook Air (ultimo modelo) de 13.""  Core i3 ",1
-53,Dell ," Laptop G3 de 15.6""  NVIDIA GeForce GTX 1650 Ti ",1
-54,Microsoft ," Surface Book 3 tactil de 13.5""  Core i5 ",1
-55,Acer , Laptop A51452,1
-56,MSI," Laptop RAIDER 10SFS220MX de 15.6""",1
-57,Acer ," Laptop PREDATOR HELIOS 300 de 15.6"" NVIDIA GeForce RTX 2060 ",1
-58,HP ," Laptop ENVY X360 13AR0003LA de 13.3"" ",1
-59,HP ," Laptop PAVILION 15CW1005LA de 15.6"" ",1
-60,MSI ,"Laptop 15.6""Comet lake i7",1
-61,Dell ," Laptop INSPIRON G3 15 1650 de 15.6"" NVIDIA GeForce GTX 1650",1
-62,Apple ," MacBook Pro de 16"" Core i9",1
-63,Apple ," MacBook Pro de 13""  Core i5 ",1
-64,Lenovo ," Laptop Legion Y740 I7 de 17.3""  NVIDIA GeForce RTX 2080",1
-65,Apple ," MacBook Pro (de 16"" Core i7",1
-66,Apple ," MacBook Pro de 13""  Core i5 ",1
-67,Lenovo," Laptop LEGION Y540 I5 de 15.6"" NVIDIA GeForce GTX 1650",1
-68,Lenovo ," Laptop Yoga Slim 7 de 14""  AMD Ryzen 5 ",1
-69,Acer ," Laptop PREDATOR TRITON 300 de 15.6"" NVIDIA GeForce GTX 1660 Ti ",1
-70,Acer , Laptop SF31442,1
-71,Dell," Laptop gaming NB G515SE de 15.6"" AMD Radeon RX 5600M",1
+,Laptop Img,Laptop Brand,Laptop Model,Tag
+0,"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_UL200_SR200,200_.jpg",Acer,"Acer Aspire 5 Slim - visualizacion IPS Full HD de 15,6 Pulgadas, AMD Ryzen 5 3500U, Vega 8 Graphics, 8GB DDR4, 256 GB ",1
+1,"https://images-na.ssl-images-amazon.com/images/I/61vIVmO7OHL._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo Laptop IP 3-14IIL Intel Ci5, RAM 12GB, SDD 256GB, Windows 10, Azul ",1
+2,"https://images-na.ssl-images-amazon.com/images/I/7132lTn3fOL._AC_UL200_SR200,200_.jpg",Asus,"Asus Laptop Gamer TUF 15.6"", GeForce GTX 1650, Ryzen 7 , 8GB RAM, 256 GB SSD, FX505DT-BQ155T ",1
+3,"https://images-na.ssl-images-amazon.com/images/I/51dOURE3uLL._AC_UL200_SR200,200_.jpg",HUAWEI,"HUAWEI Matebook 13 2020 - Computadora portatil Ultra Delgada 13"", Intel Core i5-10210U, Windows 10, 512 GB SSD + 8 GB ",1
+4,"https://images-na.ssl-images-amazon.com/images/I/61vIVmO7OHL._AC_UL85_SR85,85_.jpg",Lenovo,"Lenovo Laptop IP 3-14IIL Intel Ci5, RAM 12GB, SDD 256GB, Windows 10, Azul ",1
+5,"https://images-na.ssl-images-amazon.com/images/I/61VKlb8hKyL._AC_UL85_SR85,85_.jpg",Dell,"Dell Laptop Inspiron 3505 AMD Athlon Silver, 8GB RAM, 256GB SSD, Win 10 - Plata. ",1
+6,"https://images-na.ssl-images-amazon.com/images/I/61oQOVvXg7L._AC_UL85_SR85,85_.jpg",Dell,Dell Gaming G3 15 3500 Intel Core I5 8Gb 256Gb Blanco ,1
+7,"https://images-na.ssl-images-amazon.com/images/I/7132lTn3fOL._AC_UL85_SR85,85_.jpg",Asus,"Asus Laptop Gamer TUF 15.6"", GeForce GTX 1650, Ryzen 7 , 8GB RAM, 256 GB SSD, FX505DT-BQ155T ",1
+8,"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_UL85_SR85,85_.jpg",Acer,"Acer Aspire 5 Slim - visualizacion IPS Full HD de 15,6 Pulgadas, AMD Ryzen 5 3500U, Vega 8 Graphics, 8GB DDR4, 256 GB ",1
+9,"https://images-na.ssl-images-amazon.com/images/I/61vIVmO7OHL._AC_UL85_SR85,85_.jpg",Lenovo,"Lenovo Laptop IP 3-14IIL Intel Ci5, RAM 12GB, SDD 256GB, Windows 10, Azul ",1
+10,"https://images-na.ssl-images-amazon.com/images/I/616lp68ZrQL._AC_UL200_SR200,200_.jpg",Dell,"Dell Inspiron 5391 13"" Core i7 10a. Gen., 8GB RAM, 512 SSD, Windows 10. Incluye Monitor de 20"" ",1
+11,"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_UL200_SR200,200_.jpg",Acer,"Acer Aspire 5 Slim - visualizacion IPS Full HD de 15,6 Pulgadas, AMD Ryzen 7 3700U, RX Vega 10 graficos, 8GB DDR4, 512 ",1
+12,"https://images-na.ssl-images-amazon.com/images/I/51jeoMkZiKL._AC_UL200_SR200,200_.jpg",2020,"2020 Lenovo IdeaPad Laptop ComputerAMD A6-9220e 1.6GHz 4GB Memory 64GB eMMC Flash Memory 14"" AMD Radeon R4 AC WiFi ",1
+13,"https://images-na.ssl-images-amazon.com/images/I/51dOURE3uLL._AC_UL200_SR200,200_.jpg",Huawei,"Huawei Matebook 13 2020 -Laptop 13"" Procesador Amd Ryzen 5 3500U, Windows 10, Memoria De 256 Gb Rom + 8 Gb Ram, Gpu ",1
+14,"https://images-na.ssl-images-amazon.com/images/I/61c1UTa9fwL._AC_UL200_SR200,200_.jpg",Acer,"Acer Aspire 5 A515-44-R2SA, 15.6"", Full HD, AMD Ryzen 7 4700U Octa-Core Procesador movil con Radeon Graphics, 8GB DDR4 ",1
+15,"https://images-na.ssl-images-amazon.com/images/I/51RP5cuwFXL._AC_UL200_SR200,200_.jpg",HP,"HP COMHPI970 Laptop - 14"", Intel Celeron, N4000, 4 GB, Windows 10 Home, 500 GB ",1
+16,"https://images-na.ssl-images-amazon.com/images/I/61VKlb8hKyL._AC_UL200_SR200,200_.jpg",Dell,"Dell Laptop Inspiron 3505 AMD Athlon Silver, 8GB RAM, 256GB SSD, Win 10 - Plata. ",1
+17,"https://images-na.ssl-images-amazon.com/images/I/81Y6WZhCuDL._AC_UL200_SR200,200_.jpg",HP,"HP Laptop 14 pulgadas, Ryzen 3 3200U hasta 3,5 GHz, AMD Radeon Vega 3 Graphics, 4GB SDRAM, SSD de 128 GB, WiFi, camara ",1
+18,"https://images-na.ssl-images-amazon.com/images/I/611KJn0s%2BKL._AC_UL200_SR200,200_.jpg",Dell,"Dell Laptop G3 15.6"" Core i5 10a. Gen. 8GB RAM, 256 SSD, NVIDIA GEFORCE GTX 1650, Windows 10 - Blanco. ",1
+19,"https://images-na.ssl-images-amazon.com/images/I/61%2BLliKJpyL._AC_UL200_SR200,200_.jpg",Huawei,"Huawei MateBook D 15"" - AMD Ryzen, Windows 10 - 8+256 GB,15.6 pulgadas, Color Plateado (Mystic Silver) ",1
+20,"https://images-na.ssl-images-amazon.com/images/I/61oQOVvXg7L._AC_UL200_SR200,200_.jpg",Dell,Dell Gaming G3 15 3500 Intel Core I5 8Gb 256Gb Blanco ,1
+21,"https://images-na.ssl-images-amazon.com/images/I/712QuIJM7KL._AC_UL200_SR200,200_.jpg",LAPTOP,"LAPTOP GAMING MSI GF63 Thin 10SCSR-610MX 15.6"" FHD, IPS, NVIDIA GEFORCE GTX1650TI MAX-Q 4GB, INTEL CORE i5-10300H, RAM ",1
+22,"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_UL200_SR200,200_.jpg",Acer,"Acer Aspire 5 Slim Laptop 15.6"" Full HD IPS visualizacion, AMD Ryzen 3 3200U, Vega 3 Graphics, 4 GB DDR4, 128 GB SSD ",1
+23,"https://images-na.ssl-images-amazon.com/images/I/71sRJdOEUEL._AC_UL200_SR200,200_.jpg",Dell,"Dell Laptop G5 Core i7 10a. Gen,16 GB RAM, 512SSD, NVIDIA GEFORCE GTX 1660 Ti, Win 10 - Negro ",1
+24,"https://images-na.ssl-images-amazon.com/images/I/719Xp9IGIVL._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo IdeaPad 3 2020 - visualizacion tactil HD de 15 Pulgadas, Intel 10 generacion Dual-Core i3-1005G1 CPU, 8GB DDR4 ",1
+25,"https://images-na.ssl-images-amazon.com/images/I/61UVAs3Qk-L._AC_UL200_SR200,200_.jpg",Samsung,Samsung Chromebook 4 Chrome OS 11.6 Pulgadas HD Intel Celeron Processor N4000 4GB RAM 32GB eMMC Gigabit Wi-Fi - XE310XBA ,1
+26,"https://images-na.ssl-images-amazon.com/images/I/81M%2BO6xJ0UL._AC_UL200_SR200,200_.jpg",HP,"HP Pavilion Laptop, Pantalla de 15"" FHD, Procesador AMD Ryzen 7 3700U(2a), 16GB RAM, 1TB+128GB SSD, Sistema operativo ",1
+27,"https://images-na.ssl-images-amazon.com/images/I/71QOu1OVbdL._AC_UL200_SR200,200_.jpg",Acer,"Acer Aspire 5, 15.6"" Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, retroiluminado ",1
+28,"https://images-na.ssl-images-amazon.com/images/I/31lliPCo43L._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo Laptop IdeaPad L340-15API 15.6"", AMD RYZEN 5, RAM 8GB,2TB HDD Abyss Blue ",1
+29,"https://images-na.ssl-images-amazon.com/images/I/717ywJDnAHL._AC_UL200_SR200,200_.jpg",HP,"HP Pavilion Intel Pentium Gold 4417U 4 GB 500 GB 15.6-inch DVD Windows 10 Laptop, Blanco crudo, 15-15.99 inches (Renewed ",1
+30,"https://images-na.ssl-images-amazon.com/images/I/61u9YxmwMCL._AC_UL200_SR200,200_.jpg",Huawei,"Huawei Matebook D 14"", Amd Ryzen, Windows 10, Ssd 512 Gb 8Gb Ram, Color Plateado (Mystic Silver) ",1
+31,"https://images-na.ssl-images-amazon.com/images/I/61gyGLERUKL._AC_UL200_SR200,200_.jpg",Portátil,"Portatil Dell Latitude E7470 de 14 pulgadas, Core i5-6300U 2,4 GHz, 8GB de RAM, 256 GB SSD, Windows 10 Pro 64 bits ",1
+32,"https://images-na.ssl-images-amazon.com/images/I/61oWaXNhd1L._AC_UL200_SR200,200_.jpg",Huawei,"Huawei MateBook D 15"" AMD Ryzen 5, Windows 10,512GB SSD, 8GB RAM,15.6 Pulgadas, Color Gris ",1
+33,"https://images-na.ssl-images-amazon.com/images/I/61bm32Q4E8L._AC_UL200_SR200,200_.jpg",Acer,"Acer Aspire 3 Core I3-1005G1; Pantalla 15.6"" HD; 8 GB RAM; 1 TB HDD ",1
+34,"https://images-na.ssl-images-amazon.com/images/I/71SZpMT7k3L._AC_UL200_SR200,200_.jpg",HP,"HP visualizacion Insignia Chromebook, 11,6"" HD (1366 x 768), procesador Intel Celeron N3350, 4GB LPDDR2, 32GB eMMC ",1
+35,"https://images-na.ssl-images-amazon.com/images/I/81p0gzNy7AL._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo ideapad S145 pantalla 15.6 pulgadas, laptop IPS, procesador Intel Core 10 generacion i3-1005G1 de doble nucleo ",1
+36,"https://images-na.ssl-images-amazon.com/images/I/716sLNiFKWL._AC_UL200_SR200,200_.jpg",Notebook,"Notebook IdeaPad S340-15IIL Ci5, 12 GB, 1 TB DD ",1
+37,"https://images-na.ssl-images-amazon.com/images/I/71Qr5HOVCzL._AC_UL200_SR200,200_.jpg",Dell,Dell Gaming G3 15 3500 Intel Core I5 8Gb 256Gb Negro ,1
+38,"https://images-na.ssl-images-amazon.com/images/I/81ogtKnKZXL._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo Flex 5 14"" FHD IPS tactil Premium 2 en 1, AMD 4th Gen Ryzen 5 4500U, 16GB RAM, 512 GB PCIe SSD, teclado ",1
+39,"https://images-na.ssl-images-amazon.com/images/I/61%2BLliKJpyL._AC_UL200_SR200,200_.jpg",Huawei,"Huawei MateBook D 15"" - AMD Ryzen, Windows 10-1TB+256 GB, 8GB RAM,15.6 Pulgadas, Color Plateado (Mystic Silver) ",1
+40,"https://images-na.ssl-images-amazon.com/images/I/71Vw3ExhsQL._AC_UL200_SR200,200_.jpg",Asus,"Asus VivoBook S13 Portatil Delgado y Ligero, 33 cm., Indie Negro, 13-13.99 Inches ",1
+41,"https://images-na.ssl-images-amazon.com/images/I/61ViOMIUhmL._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo Chromebook S330 Laptop, Pantalla FHD de 14 Pulgadas (1920 x 1080), procesador MediaTek MT8173C, 4GB LPDDR3, 64GB ",1
+42,"https://images-na.ssl-images-amazon.com/images/I/61dJ7TgwcXL._AC_UL200_SR200,200_.jpg",Dell,"Dell Laptop Inspiron 3585, AMD Ryzen 5, 8GB RAM, 512GB SSD, Win 10 - Plata. ",1
+43,"https://images-na.ssl-images-amazon.com/images/I/810R8jfOCqL._AC_UL200_SR200,200_.jpg",Asus,"Asus Chromebook Laptop- 14 Pulgadas HD 180 Grados NanoEdge, procesador Intel Dual Core Celeron N3350, 4 GB RAM, 32 GB de ",1
+44,"https://images-na.ssl-images-amazon.com/images/I/712QuIJM7KL._AC_UL200_SR200,200_.jpg",LAPTOP,"LAPTOP GAMING MSI GF63 Thin 10SCSR-456MX 15.6"" FHD, IPS, NVIDIA GEFORCE GTX1650 TI MAX-Q 4GB, INTEL CORE i7-10750H, RAM ",1
+45,"https://images-na.ssl-images-amazon.com/images/I/71iPHl2UQlL._AC_UL200_SR200,200_.jpg",Dell,"Dell Laptop Gaming G3 3500, Core i7 10a. Gen.,16GB RAM, 256GB SSD, NVIDIA GTX 1650 Ti, Win 10 - Negro. ",1
+46,"https://images-na.ssl-images-amazon.com/images/I/81egAUg2YXL._AC_UL200_SR200,200_.jpg",HP,"HP 14-cf3021la, Windows 10, Intel Core I5, 8GB RAM ",1
+47,"https://images-na.ssl-images-amazon.com/images/I/71-PjLUeO%2BL._AC_UL200_SR200,200_.jpg",Asus,"Asus Vivobook S15 S512 Delgado y Ligero, i7 | 256 G SSD + 1T HDD | GeForce MX250, 15-15.99 Inches ",1
+48,"https://images-na.ssl-images-amazon.com/images/I/71Ni0lpcziL._AC_UL200_SR200,200_.jpg",Apple,"Apple MacBook Pro (de 16 pulgadas, Touch Bar, Procesador Intel Core i7 de 6 nucleos y 2.6 GHz, 16 GB RAM, 512 GB) - Gris ",1
+49,"https://images-na.ssl-images-amazon.com/images/I/51u5n--kWWL._AC_UL200_SR200,200_.jpg",Asus,"Asus Laptop VivoBook S, 15"", Core i7 10a Gen, 12GB RAM, 512GB SSD, ScreenPad 2.0, Plata, S532FA-BN160T ",1
+50,"https://images-na.ssl-images-amazon.com/images/I/71FrQxHnBQL._AC_UL200_SR200,200_.jpg",Asus,"Asus VivoBook S15 S533 Portatil Delgado y Ligero, Indie Negro, 15-15.99 Inches ",1
+51,"https://images-na.ssl-images-amazon.com/images/I/71V4812suvL._AC_UL200_SR200,200_.jpg",HP,"HP 2020 Newest Pavilion X360 2 en 1 convertible portatil de visualizacion tactil HD de 14"", 10 generacion Intel Core i3 ",1
+52,"https://images-na.ssl-images-amazon.com/images/I/71sRJdOEUEL._AC_UL200_SR200,200_.jpg",Dell,Dell Gaming G5 15 5500 Intel Core i7 16GB 512GB ,1
+53,"https://images-na.ssl-images-amazon.com/images/I/71dqjxW8g5L._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo IdeaPad 3 portatil de 14"", visualizacion FHD 1920 x 1080, procesador AMD Ryzen 5 3500U, 8 GB DDR4 RAM, 256 GB SSD ",1
+54,"https://images-na.ssl-images-amazon.com/images/I/81DkONvgRVL._AC_UL200_SR200,200_.jpg",Asus,"Asus ZenBook 14 Ultra-Slim Laptop 14"" Full HD NanoEdge Bezel, Intel Core i5-1035G1, 8GB RAM, 512GB PCIe SSD, NumberPad ",1
+55,"https://images-na.ssl-images-amazon.com/images/I/61uJhCwcL6L._AC_UL200_SR200,200_.jpg",Asus,"Asus Rog Strix G15 Electro, 15"", Geforce Gtx 1650 Ti With Rog Boost Intel, Core I5 10A Gen, 16Gb Ram, 512 Ssd, G512Li ",1
+56,"https://images-na.ssl-images-amazon.com/images/I/71pfbzHCxVL._AC_UL200_SR200,200_.jpg",XPG,"XPG XENIA Notebook-Laptop Gaming de 15.6 NVIDIA GEFORCE GTX 1660Ti Intel Core I7-9750H, RAM 32 GB XPG DDR4 2666Mhz, SSD ",1
+57,"https://images-na.ssl-images-amazon.com/images/I/81lcaEKo3hL._AC_UL200_SR200,200_.jpg",HP,"HP Laptop, Pantalla de 13.3, Procesador Intel Core i5-1035G1 10 generacion a 3.6 GHz, 8 GB RAM, 256 GB SSD +16 GB ",1
+58,"https://images-na.ssl-images-amazon.com/images/I/714fEqLQJCL._AC_UL200_SR200,200_.jpg",Dell,"Dell Latitude 5480 14 pulgadas, Core i5-6200U 2,3 GHz, 8 GB Ram, 256 GB SSD, Windows 10 Pro 64 bits (Renewed) ",1
+59,"https://images-na.ssl-images-amazon.com/images/I/61vIVmO7OHL._AC_UL85_SR85,85_.jpg",Lenovo,"Lenovo Laptop IP 3-14IIL Intel Ci5, RAM 12GB, SDD 256GB, Windows 10, Azul ",1
+60,"https://images-na.ssl-images-amazon.com/images/I/61VKlb8hKyL._AC_UL85_SR85,85_.jpg",Dell,"Dell Laptop Inspiron 3505 AMD Athlon Silver, 8GB RAM, 256GB SSD, Win 10 - Plata. ",1
+61,"https://images-na.ssl-images-amazon.com/images/I/61oQOVvXg7L._AC_UL85_SR85,85_.jpg",Dell,Dell Gaming G3 15 3500 Intel Core I5 8Gb 256Gb Blanco ,1
+62,"https://images-na.ssl-images-amazon.com/images/I/7132lTn3fOL._AC_UL85_SR85,85_.jpg",Asus,"Asus Laptop Gamer TUF 15.6"", GeForce GTX 1650, Ryzen 7 , 8GB RAM, 256 GB SSD, FX505DT-BQ155T ",1
+63,"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_UL85_SR85,85_.jpg",Acer,"Acer Aspire 5 Slim - visualizacion IPS Full HD de 15,6 Pulgadas, AMD Ryzen 5 3500U, Vega 8 Graphics, 8GB DDR4, 256 GB ",1
+64,"https://images-na.ssl-images-amazon.com/images/I/61vIVmO7OHL._AC_UL85_SR85,85_.jpg",Lenovo,"Lenovo Laptop IP 3-14IIL Intel Ci5, RAM 12GB, SDD 256GB, Windows 10, Azul ",1
+65,"https://images-na.ssl-images-amazon.com/images/I/8133cgtdGnL._AC_UL200_SR200,200_.jpg",HP,"HP Laptop de 15,6 pulgadas (AMD Quad-Core Ryzen 5 3500U, 8GB RAM, 256 GB SSD, HDMI, WiFi, Bluetooth, camara web HD ",1
+66,"https://images-na.ssl-images-amazon.com/images/I/81TxlKTdzwL._AC_UL200_SR200,200_.jpg",Apple,"Apple MacBook Air (de 13 pulgadas, Procesador Intel Core i3 de doble nucleo y 1.1 GHz de decima generacion, 8 GB RAM ",1
+67,"https://images-na.ssl-images-amazon.com/images/I/A1A2yQlAXCL._AC_UL200_SR200,200_.jpg",Asus,"Asus TUF Gaming A15 Laptop para Videojuegos, 15.6 Pulgadas, 144 Hz Full HD IPS, AMD Ryzen 5 4600H, GeForce GTX 1650, 8 ",1
+68,"https://images-na.ssl-images-amazon.com/images/I/61dqNELHRqL._AC_UL200_SR200,200_.jpg",HUAWEI,"HUAWEI Matebook D 14 R7 - Laptop 14"", AMD Ryzen 7 3700U, Windows 10, 512 GB ROM + 8 GB RAM, GPU Radeon RX Vega 10 ",1
+69,"https://images-na.ssl-images-amazon.com/images/I/81Vtd8etZtL._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo Thinkpad X131e Chromebook de 11.6 pulgadas LED Intel Celeron Dual Core 1,50 gHz modelo 628323u (Renewed) ",1
+70,"https://images-na.ssl-images-amazon.com/images/I/71UQxg0JFCL._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo IdeaPad 3 Laptop de 14 pulgadas, FHD de 14 pulgadas (1920 x 1080) AMD Ryzen 5 3500U 8GB DDR4 RAM, 256GB SSD, AMD ",1
+71,"https://images-na.ssl-images-amazon.com/images/I/71vLhUMKEUL._AC_UL200_SR200,200_.jpg",Dell,Dell Gaming G5 15 5505 AMD Ryzen 7 16GB 512GB ,1
+72,"https://images-na.ssl-images-amazon.com/images/I/51pPm%2B3%2BAbL._AC_UL200_SR200,200_.jpg",Huawei,"Huawei Matebook 13 2020 -Laptop 13"" Procesador Amd Ryzen 5 3500U, Windows 10, Memoria De 512 Gb Rom + 8 Gb Ram, Gpu ",1
+73,"https://images-na.ssl-images-amazon.com/images/I/816sFhBGmKL._AC_UL200_SR200,200_.jpg",2020,2020 Lenovo IdeaPad 3 15.6 pulgadas Laptop Intel Core i3-1005G1 8GB RAM 256GB SSD Windows 10 pulgadas Modo S Azul ,1
+74,"https://images-na.ssl-images-amazon.com/images/I/71kMPSNqHbL._AC_UL200_SR200,200_.jpg",ASUS,"ASUS VivoBook 15 S513 Portatil delgado y ligero, visualizacion FHD de 15,6 pulgadas, procesador AMD Ryzen 7 4700U, 8 GB ",1
+75,"https://images-na.ssl-images-amazon.com/images/I/61EbQiofbGL._AC_UL200_SR200,200_.jpg",HP,"HP Pavilion portatil FHD de 15,6"", procesador Intel Quad-Core i5 de 8 GB, memoria DDR4 WiFi, Bluetooth, Windows 10 Home ",1
+76,"https://images-na.ssl-images-amazon.com/images/I/81TM5CgvlQL._AC_UL200_SR200,200_.jpg",Asus,"Asus Chromebook C523 visualizacion HD NanoEdge de 15,6"" con bisagra de 180 Grados procesador Intel Dual Core Celeron ",1
+77,"https://images-na.ssl-images-amazon.com/images/I/717ywJDnAHL._AC_UL200_SR200,200_.jpg",2020,"2020 HP 15.6 pulgadas HD LED visualizacion portatil Intel Pentium Gold 6405U procesador 4GB DDR4 RAM, 128 GB SSD, HDMI ",1
+78,"https://images-na.ssl-images-amazon.com/images/I/71Np91bqLhL._AC_UL200_SR200,200_.jpg",2020,"2020 HP portatil de 14 pulgadas, procesador Intel Celeron N4000 de hasta 2,6 GHz, 4 GB de RAM DDR4, 64 GB SSD, Intel UHD ",1
+79,"https://images-na.ssl-images-amazon.com/images/I/51tJRvYuuZL._AC_UL200_SR200,200_.jpg",Laptop,"Laptop Asus Vivobook S, 15"", Core I5 10A Gen, 8Gb Ram, 1Tb Ssd, White, S533Fa-Bq127T ",1
+80,"https://images-na.ssl-images-amazon.com/images/I/618GEuHt8ML._AC_UL200_SR200,200_.jpg",Acer,"Acer Swift 3 Laptop delgada y ligera, 14 pulgadas Full HD IPS, AMD Ryzen 5 4500U Hexa-Core Procesador con Radeon ",1
+81,"https://images-na.ssl-images-amazon.com/images/I/71Qr5HOVCzL._AC_UL200_SR200,200_.jpg",Dell,"Dell Laptop G3 15.6"" Core i5 10a. Gen. 8GB RAM, 1TB DD + 256 SSD, NVIDIA GEFORCE GTX 1650 Ti, Windows 10 - Negro. ",1
+82,"https://images-na.ssl-images-amazon.com/images/I/71-mNJLIR5L._AC_UL200_SR200,200_.jpg",HP,"HP Pavilion Gaming 15, NVIDIA GeForce GTX 1650, AMD Ryzen 5 4600H, 8GB DDR4 RAM, 512 GB SSD PCIe NVMe, 15.6"" Full HD ",1
+83,"https://images-na.ssl-images-amazon.com/images/I/81xIwnpo67L._AC_UL200_SR200,200_.jpg",Apple,"Apple MacBook Air (de 13 pulgadas, Procesador Intel Core i5 de 4 nucleos y 1.1 GHz de decima generacion, 8 GB RAM, 512 ",1
+84,"https://images-na.ssl-images-amazon.com/images/I/81gPkYDehqL._AC_UL200_SR200,200_.jpg",Newest,"Newest HP 14"" HD Premium Business Laptop PC | 10th Gen Intel Quad-Core i5-1035G1 up to 3.6GHz | 8GB RAM | 256GB SSD ",1
+85,"https://images-na.ssl-images-amazon.com/images/I/71GjONcpjUL._AC_UL200_SR200,200_.jpg",HP,"HP portatil FHD de 15 pulgadas, 10 generacion Intel Core i5-1035G1, 8 GB RAM, 256 GB unidad de estado solido, Windows 10 ",1
+86,"https://images-na.ssl-images-amazon.com/images/I/61HPOmkFl1L._AC_UL200_SR200,200_.jpg",Dell,"Dell Laptop Inspiron 14"" 3493, Core i5 10a. Gen., 8GB RAM, 256GB SSD, Win 10 - Plata. ",1
+87,"https://images-na.ssl-images-amazon.com/images/I/81UqUntkz6L._AC_UL200_SR200,200_.jpg",ASUS,"ASUS Laptop L406 portatil delgado y ligero, visualizacion HD de 14 pulgadas, procesador Intel Celeron N4000, 4 GB de RAM ",1
+88,"https://images-na.ssl-images-amazon.com/images/I/71aYaZp-spL._AC_UL200_SR200,200_.jpg",HP,"HP Stream Laptop de 14 pulgadas, Intel Celeron N4000, 4 GB RAM, 64 GB eMMC, Windows 10 Home en modo S (14-cb159nr, Jet ",1
+89,"https://images-na.ssl-images-amazon.com/images/I/41eVdbpbn8L._AC_UL200_SR200,200_.jpg",HP,"HP EliteBook 840 G4 14 pulgadas HD Laptop, Core i5-7300U 2.6GHz, 16GB RAM, 256GB Unidad de estado solido, Webcam ",1
+90,"https://images-na.ssl-images-amazon.com/images/I/71k45hZkLmL._AC_UL200_SR200,200_.jpg",Acer,"Acer Predator Helios 300 Gaming Laptop, Intel i7-10750H, NVIDIA GeForce RTX 2060 6GB, 15.6"" Full HD 144Hz 3ms IPS ",1
+91,"https://images-na.ssl-images-amazon.com/images/I/51bTeBj1J3L._AC_UL200_SR200,200_.jpg",HUAWEI,"HUAWEI Matebook X Pro 2020 i5 - Laptop de 13.9"" de Decima Generacion Intel Core i5-10210U, Windows 10 Home, Memoria de ",1
+92,"https://images-na.ssl-images-amazon.com/images/I/51BMiPWtYeL._AC_UL200_SR200,200_.jpg",2020,"2020 HP Envy 13,3 pulgadas 4K Ultra HD visualizacion tactil portatil 10 generacion Intel i7-1065G7 8 GB memoria DDR4 ",1
+93,"https://images-na.ssl-images-amazon.com/images/I/51BMiPWtYeL._AC_UL200_SR200,200_.jpg",HP,"HP - Envy Laptop de visualizacion tactil 4K Ultra HD de 13,3 pulgadas - Intel Core i7-1065G7 - memoria DDR4 de 8 GB ",1
+94,"https://images-na.ssl-images-amazon.com/images/I/81r1MpT7eBL._AC_UL200_SR200,200_.jpg",HP,"HP Pavilion Laptop 15.6 pulgadas Full HD, AMD Ryzen 5 3500U, AMD Radeon Vega 8 Graphics, 8GB SDRAM, 1TB HDD + 128 GB SSD ",1
+95,"https://images-na.ssl-images-amazon.com/images/I/81%2B0uLLEfYL._AC_UL200_SR200,200_.jpg",Asus,"Asus Vivobook S15 S532 - Portatil Fino y Ligero, 15,6"" FHD, Intel Core i5-10210U, 8 GB DDR4 RAM, 512 GB PCIe SSD ",1
+96,"https://images-na.ssl-images-amazon.com/images/I/51tmIh-xfvL._AC_UL200_SR200,200_.jpg",Laptop,"Laptop Dell Inspiron 5593, Pantalla 15.6"", Procesador Core i5 10a. Gen, 8GB RAM, 256 SSD, WIN 10, Color AZUL ",1
+97,"https://images-na.ssl-images-amazon.com/images/I/71BJqmWtKSL._AC_UL200_SR200,200_.jpg",Acer,"Acer Aspire 15.6-inch HD Business Chromebook-Intel Dual-Core Celeron Processor, 4GB LPDDR3, 16GB eMMC Storage, Intel HD ",1
+98,"https://images-na.ssl-images-amazon.com/images/I/81nx6wz7GjL._AC_UL200_SR200,200_.jpg",Lenovo,Lenovo IdeaPad S340 Intel Core i3-8145u 8. generacion 4 GB DDR4 1TB HDD 15.6-inch HD Windows 10 Slim Laptop Platinum ,1
+99,"https://images-na.ssl-images-amazon.com/images/I/61avuUmetYL._AC_UL200_SR200,200_.jpg",Asus,"Asus Laptop X512DA-BTS2020RL 15.6"" AMD Ryzen 5 8GB 512GB Plata ",1
+100,"https://images-na.ssl-images-amazon.com/images/I/814I0Iz4QLL._AC_UL200_SR200,200_.jpg",HP,"HP Pavilion Laptop, Pantalla de 15"" HD, Procesador AMD Ryzen 3-3300U, 12GB RAM, 1TB+128GB SSD, Sistema operativo Windows ",1
+101,"https://images-na.ssl-images-amazon.com/images/I/616ayxYmzZL._AC_UL200_SR200,200_.jpg",Lenovo,"Lenovo IdeaPad 3 2020, visualizacion de bisel estrecho Full HD de 14"", procesador AMD Ryzen 3 3250U de doble nucleo, 8 ",1
+102,"https://images-na.ssl-images-amazon.com/images/I/71idFa2cEuL._AC_UL200_SR200,200_.jpg",Laptop,"Laptop HP Stream 11 pulgadas, Intel Celeron ",1
+103,"https://images-na.ssl-images-amazon.com/images/I/51nJj-tbvnL._AC_UL200_SR200,200_.jpg",PC,"PC portatil HP 15.6 BrightView Premium, A9-9125 | 4 GB | 500 GB, 15-15.99 inches (Renewed) ",1
+104,"https://images-na.ssl-images-amazon.com/images/I/615HhqLCmhL._AC_UL200_SR200,200_.jpg",Laptop,"Laptop Gamer ASUS TUF 15.6"", GeForce GTX 1660, Ryzen 7 , 8GB RAM, 1TB HDD + 512GB SSD, FA506IU-HN243T ",1
+105,"https://images-na.ssl-images-amazon.com/images/I/41w4cIrvfWL._AC_UL200_SR200,200_.jpg",Laptop,"Laptop DELL inspiron 15 3593: Procesador Intel Core i3 1005G1 (Hasta 3.4 GHz), Memoria de 20GB (16 GB de Intel Optane ",1
+106,"https://images-na.ssl-images-amazon.com/images/I/51WQdtPRFJL._AC_UL200_SR200,200_.jpg",Apple,"Apple MacBook Pro (de 13 pulgadas, Touch Bar, Procesador Intel Core i5 de 4 nucleos y 1.4 GHz de octava generacion, 8 GB ",1
+107,"https://images-na.ssl-images-amazon.com/images/I/51v32-2A0lL._AC_UL200_SR200,200_.jpg",HP,"HP Portatil de 14 pulgadas, Oro palido, 10th Gen i3-1005G1 (Renewed) ",1
+108,"https://images-na.ssl-images-amazon.com/images/I/51xGKouDlgL._AC_UL200_SR200,200_.jpg",Huawei,"Huawei Matebook 13 + MIFI- Computadora portatil ultradelgada 13"" (Intel Core i5-8265U, 8GB RAM + 512GB SSD, Nvidia ",1
