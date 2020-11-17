@@ -123,22 +123,28 @@ def Amazon():
         df2.to_csv('lapsAmazon.csv', index=False, encoding='utf-8')
 
 def AmazonImgs():
+    #Cellphone Llinks
     link1 = 'https://www.amazon.com.mx/gp/bestsellers/electronics/9687458011?ref_=Oct_s9_apbd_obs_hd_bw_bAZbaMl_S&pf_rd_r=HZ45SGH8T7GKZ74AS33S&pf_rd_p=4d9d93c0-fea5-5ed3-9cdc-da3baf21c408&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=9687458011'
-    link2='https://www.amazon.com.mx/gp/bestsellers/electronics/9687458011/ref=zg_bs_pg_2/132-1166954-1513655?ie=UTF8&pg=2'
+    link2 ='https://www.amazon.com.mx/gp/bestsellers/electronics/9687458011/ref=zg_bs_pg_2/132-1166954-1513655?ie=UTF8&pg=2'
+    #Laptop links
+    link3 ='https://www.amazon.com.mx/gp/bestsellers/electronics/10189669011?ref_=Oct_s9_apbd_obs_hd_bw_bB7aoOB_S&pf_rd_r=5794MD68EN89CRQZWMDQ&pf_rd_p=58d7811c-7134-5551-b955-42726ceffed4&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=10189669011'
+    link4 ='https://www.amazon.com.mx/gp/bestsellers/electronics/10189669011/ref=zg_bs_pg_2?ie=UTF8&pg=2'
     driver.get(link1)
     content = driver.page_source
     soup = BSHTML(content, features="html.parser")
-    imgsrc = []
-    imgalt = []
+    phoneimgsrc = []
+    phoneimgalt = []
+    laptopimgsrc = []
+    laptopimgalt = []
 
     images = soup.findAll('img')
     for image in images:
         print (image['src'])
-        imgsrc.append(image['src'])
+        phoneimgsrc.append(image['src'])
         try:
-            imgalt.append(image['alt'])
+            phoneimgalt.append(image['alt'])
         except:
-            imgalt.append('imagealt')
+            phoneimgalt.append('imagealt')
 
     driver.get(link2)
     content = driver.page_source
@@ -148,14 +154,47 @@ def AmazonImgs():
     images = soup.findAll('img')
     for image in images:
         print (image['src'])
-        imgsrc.append(image['src'])
+        phoneimgsrc.append(image['src'])
         try:
-            imgalt.append(image['alt'])
+            phoneimgalt.append(image['alt'])
         except:
-            imgalt.append('imagealt')
+            phoneimgalt.append('imagealt')
 
-    df = pd.DataFrame({'Cellphone Img':imgsrc, 'Alt Text': imgalt})
+    #-----------Laptops-----------
+
+    driver.get(link3)
+    content = driver.page_source
+    soup = BSHTML(content, features="html.parser")
+    sleep(2)
+
+    images = soup.findAll('img')
+    for image in images:
+        print (image['src'])
+        laptopimgsrc.append(image['src'])
+        try:
+            laptopimgalt.append(image['alt'])
+        except:
+            laptopimgalt.append('imagealt')
+
+    driver.get(link4)
+    content = driver.page_source
+    soup = BSHTML(content, features="html.parser")
+    sleep(2)
+
+    images = soup.findAll('img')
+    for image in images:
+        print (image['src'])
+        laptopimgsrc.append(image['src'])
+        try:
+            laptopimgalt.append(image['alt'])
+        except:
+            laptopimgalt.append('imagealt')
+
+    df = pd.DataFrame({'Cellphone Img':phoneimgsrc, 'Alt Text': phoneimgalt})
     df.to_csv('celsAmazonImgs.csv', index=False, encoding='utf-8')
+
+    df2 = pd.DataFrame({'Laptop Img':laptopimgsrc, 'Alt Text': laptopimgalt})
+    df2.to_csv('lapsAmazonImgs.csv', index=False, encoding='utf-8')
         
 
 
