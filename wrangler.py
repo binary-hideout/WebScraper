@@ -25,7 +25,7 @@ print(tvsdf.head())
 print(celsdf.head())
 
 
-
+"""
 #Laptop Cleaning
 lapsbb = laptopsdf["Alt Text"]
 lapbrands = []
@@ -58,18 +58,19 @@ if(len(lapnames2) == len(lapbrands)):
     laptopsdf["Laptop Model"] = lapnames2
     laptopsdf["Tag"] = tagLaps
     del laptopsdf['Alt Text']
+    print(laptopsdf.head())
 else:
     print('ERROR')
     print(lapnames2[0])
     print(lapbrands[0])
     print(len(lapnames2))
     print(len(lapbrands))
-
-print(laptopsdf.head())
-
+"""
 
 
-#TV cleaning
+
+
+#TV cleaning----------------------------------------------
 tvsbb = tvsdf["TV Name"]
 tvbrands = []
 tvnames = []
@@ -98,7 +99,7 @@ del tvsdf['TV Name']
 
 print(tvsdf.head())
 """
-#Cellphone cleaning
+#Cellphone cleaning---------------------------------------
 celsAmazon = celsdf["Alt Text"]
 Cellbrands = []
 Cellnames = [] #List of lists containing the names + details
@@ -131,10 +132,10 @@ del celsdf['Alt Text']
 
 print(celsdf.head())
 """
-print(laptopsdf)
+#print(laptopsdf)
 print(tvsdf)
 #print(celsdf)
 
-laptopsdf.to_csv("Laptopsclean.csv", encoding='utf-8')
+#laptopsdf.to_csv("Laptopsclean.csv", encoding='utf-8')
 tvsdf.to_csv("TVsclean.csv", encoding='utf-8')
 #celsdf.to_csv("Cellphonesclean.csv", encoding='utf-8')
